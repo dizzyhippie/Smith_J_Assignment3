@@ -1,0 +1,317 @@
+
+										/* GLOBAL ELEMENTS */
+
+.hidden
+{
+	display: none;
+}
+
+h1{
+	background-color: #000;
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+
+}
+
+h2{
+	background-color: #000;
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+
+}
+
+h3{
+	height: 20px;
+	width: 130px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 5px;
+
+}
+
+										/* HOME PAGE */
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#mainHeader{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo{
+	width: 185px;
+	height: 125px;
+	background-color: #000;
+}
+
+#navigation{
+	margin-left: auto;
+}
+
+#mainNav ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li{
+	margin-right: 15px;
+	padding: 10px;
+	background-color: #000;
+}
+
+#socialIcons ul{
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#socialIcons ul li{
+	margin-right: 15px;
+	padding: 5px;
+	background-color: #000;
+}
+
+/* HERO SECTION */
+
+#heroContent{
+	margin-top: 50px;
+}
+
+#heroImage{
+	width: 810px;
+	height: 365px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#heroText{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 545px;
+	height: 65px;
+	background-color: #000;
+}
+
+#learnMore_button{
+	width: 145px;
+	height: 35px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+/* MASHUP SECTION */
+
+#mashupWrapper{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+#molsonImg, #goldbondImg{
+	width: 455px;
+	height: 270px;
+	background-color: #000;
+	margin-left: 15px;
+}
+
+.mashupText{
+	width: 455px;
+	height: 90px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+/* OUR PRODUCTS SECTION */
+
+#ourProducts{
+	margin-top: 50px;
+	width: 960px;
+	height: 414px;
+	background-color: #E2E2E2;
+}
+
+#ourProducts{
+	display: flex;
+	flex-direction: row;
+}
+
+.products{
+	margin-bottom: 10px;
+	margin-left: 55px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.iconImg{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 140px;
+	height: 140px;
+	background-color: #000;
+	border-radius: 100px;
+}
+
+.productsText{
+	margin-top: 20px;
+	width: 165px;
+	height: 45px;
+	background-color: #000;
+}
+
+/* FOOTER SECTION */
+
+#contactInfo{
+	margin-top: 50px;
+	background-color: #E2E2E2;
+	height: 205px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 50px;
+}
+
+.footerInfo{
+	margin: auto;
+}
+
+#contact li{
+	margin-top: 10px;
+	background-color: #000000;
+}
+
+#footerIcons{
+	display: flex;
+	flex-direction: row;
+}
+
+#footerIcons li{
+	background-color: #000000;
+	padding: 5px;
+	margin-right: 10px;
+
+}
+
+
+										/* PRODUCTS PAGE */
+
+/* FEATURED PRODUCT SECTION */
+
+#featuredProducts{
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	background-color: #E2E2E2;
+}
+
+.featProducts{
+	width: 275px;
+	height: 200px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+/* PROMOTIONAL SECTION */
+
+#promotion{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#promoImg{
+	width: 415px;
+	height: 250px;
+	background-color: #000000;
+	margin-right: auto;
+}
+
+#promoInfo{
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+#promoText{
+	height: 135px;
+	width: 325px;
+	background-color: #000000;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#promoButton{
+	background-color: #000000;
+	width: 125px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+/* ADVERTISEMENT SECTION */
+
+#advertisements{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+#ad_button{
+	width: 145px;
+	height: 35px;
+	background-color: #000000;
+}
+
+.advertisement_photos{
+	width: 275px;
+	height: 200px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+/* PRODUCT FEATURES SECTION */
+
+#productFeatures{
+	width: 960px;
+	height: 415px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	background-color: #E2E2E2;
+}
+
+.product_features{
+	margin-bottom: 10px;
+	margin-left: 55px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.featureImg{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 140px;
+	height: 140px;
+	background-color: #000;
+	border-radius: 100px;
+}
+
+.featuresText{
+	margin-top: 20px;
+	width: 165px;
+	height: 45px;
+	background-color: #000;
+}
